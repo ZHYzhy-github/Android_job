@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
     private String[] names = new String[]{"李白","杜甫"};
     private String[] nicknames = new String[]{"诗仙","诗圣"};
+    //这里是修改图片位置,图片文件夹在res/drawble/  .jpg
     private int[] heads = new int[]{R.drawable.lb,R.drawable.df};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
